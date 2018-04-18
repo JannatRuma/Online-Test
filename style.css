@@ -1,0 +1,315 @@
+/*Header Section Style*/
+.header{
+	width:100%;
+	background-color: #191970;
+    overflow:hidden;	
+}
+/*Logo Section*/
+.logo{
+	width:30%;
+	float:left;
+}
+/*Logo Image Style*/
+.logo img{
+	padding:20px;
+	height:45px;
+	width:80px;
+}
+/*Menubar Section*/
+.menubar{
+	width:70%;
+	float:left;
+    background-color: #191970;
+}
+/*Menubar List Style*/
+.menubar ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+.menubar ul li{
+	display:inline-block;
+}
+.menubar ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:26px;
+	text-align:center;
+	padding:30px;
+	display:block;
+}
+.menubar ul li a:hover{
+	background-color:white;
+	color:black;
+}
+
+
+
+
+.image img{
+	
+	width:100%;
+} 
+.content{
+    width:100%;
+    overflow: hidden;
+}
+.maincontent{
+    width:70%;
+    float:left;
+    font-family: fantasy;
+    font-size: 26px;
+    color:brown;
+}
+.maincontent img{
+    height:400px;
+    width:350px;
+    padding:50px; 
+}
+.maincontent img:hover{
+    transform: scale(1.1);
+}
+.sidebar{
+    width:30%;
+    float: left;
+    
+}
+.sidebar img{
+    height:400px;
+    width:250px;
+    padding-left: 100px;
+}
+.search_bar{
+    padding-left:100px;
+}
+.search{
+    
+    height:30px;
+    width:180px;
+    border:2px solid steelblue;
+    padding:2px;
+    background: seashell;
+    
+}
+.go{
+    height:30px;
+    width:50px;
+    background-color: crimson;
+    border: 2px solid steelblue;
+    color:aliceblue;
+    padding:2px;
+}
+/*Registration Form Style*/
+.form{
+    background-color: seashell;
+    font-size: 18px;
+    height: 880px;
+    width:600px;
+    margin: 0 auto;
+}
+/*Registration Form's Level Style*/
+.form_level{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform:capitalize;
+    color:crimson;
+    font-size: 20px;
+    font-weight: 500px;
+}
+/*Registration Form's Input Field Style*/
+.form_input{
+    margin:20px;
+    border: 2px solid skyblue;
+    width:500px;
+    height:30px;
+    padding: 10px;
+    background:  #ffeecc;
+}
+/*Registration Form's Heading Style*/
+.form_heading{
+    font-size:26px;
+    text-align: center;
+    color: darkviolet;
+    padding-top: 20px;
+    transition: 1s;
+    transform:scale(1.2);
+}
+/*Registration Form's Heading Hover Style*/
+.form_heading:hover{
+    color: magenta;
+    transition: 1s;
+    transform:scale(1.2);
+}
+/*Registration Form's Submit Button Style*/
+.form_submit{
+    margin:20px;
+    width:250px;
+    height:30px;
+    padding:20px;
+    font-size:16px;
+    background: #2ecc71;
+    text-align: center;
+    color:black;
+}
+/*Registration Form's Reset Button Style*/
+.form_reset{
+    margin:5px;
+    width:250px;
+    height:30px;
+    padding:20px;
+    font-size:16px;
+    background: #e74c3c;
+    text-align: center;
+    color:azure;
+}
+/*Contact Style*/
+.contact{
+    height:850px;
+    width: 700px;
+    background-color: seashell;
+    margin:0 auto;
+}
+/*Contact's Heading Style*/
+.contact_heading{
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+    padding:15px;
+    border-bottom: 2px solid green;
+}
+.address_heading{
+    color:crimson;
+    font-family: monospace;
+    text-align: center;
+}
+.address_info{
+    color:darkgreen;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding:2px;
+}
+.fb{
+    width:100%;
+    
+}
+.fb a img{
+    transition:2s;
+    padding-left:20px;
+}
+.fb img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.qr{
+    height:100px;
+    width:100px;
+    
+}
+
+
+/*BottomBar style*/
+
+.bottombar{
+	width:100%;
+	overflow:hidden;
+	background-color:#191971;
+    float:left;
+    margin: auto;
+}
+
+.bar1{
+	float:left;
+	width:32%;
+	padding:0.5%;
+	color:white;
+	text-align:center;
+}
+.bar1 img
+{
+	margin-top:20px;
+	float:left;
+	display: inline-block;
+	padding:0.5%;
+	
+}
+.bar1 h4{
+    display:inline-block;
+}
+.bar1 a{
+    text-decoration:none;
+    color:aliceblue;
+}
+.bar1 a:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.bar2{
+	float:left;
+	width:32%;
+	padding:0.5%;
+	color:white;
+	text-align:center;
+}
+.bar2 img
+{
+	margin:20px;
+	float:left;
+	display: inline-block;
+	padding:0.5%;
+	align: center;
+	size:50px;
+}
+.bar2 h4{
+    display:inline-block;
+}
+.bar2 a{
+    text-decoration:none;
+    color:aliceblue;
+}
+.bar2 a:hover{
+    background-color: aqua;
+    color:black;
+}
+.bar3{
+	float:left;
+	width:32%;
+	padding:0.5%;
+	color:white;
+	text-align:center;
+}
+.bar3 img
+{
+	margin:20px;
+	float:left;
+	display: inline-block;
+	padding:0.5%;
+	align: center;
+}
+.bar3 h4{
+    display:inline-block;
+	margin-top:20px;
+	margin-left:0px;
+	margin-bottom:20px;
+	margin-right:20px;
+
+}
+.bar3 a{
+    text-decoration:none;
+    color:aliceblue;
+}
+.bar3 a:hover{
+    background-color: aqua;
+    color:black;
+}
+
+.copyright{
+	width:100%;
+	text-align:center;
+    font-size: 18px;
+}
+
+
+
